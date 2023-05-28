@@ -2,7 +2,7 @@
 ob_start();
 $ttti = time();
 error_reporting(0);
-define('API_KEY','6110901755:AAGAajrbHvf51at38panzwDRfZY7KKYD2oY');
+define('API_KEY','5843022621:AAGGea1dF4gosna-PdjIQZQoD2jFvXz_4BE');
 date_default_timezone_set('Asia/Tehran');
 //-----------------------------------------------------------------------------------------
 $telegram_ip_ranges = [
@@ -132,7 +132,7 @@ $photo = $message->photo;
 $sudo = ['6196270628','6196270628','6196270628'];
 $admin = "6196270628"; //نایدی عددی ادمی
 $channel = file_get_contents("channel.txt"); // آیدی چنل جوین اجباری با @
-$token = "1618369374:AAGv0IeDEqjPirWwF9qCYVir1Rr8jshO3R0"; // توکن ربات
+$token = "1618369374:5843022621:AAGGea1dF4gosna-PdjIQZQoD2jFvXz_4BE"; // توکن ربات
 $Support = file_get_contents("Support.txt");
 $timech = "60";
 if (!file_exists("data/$from_id/$from_id.json")){mkdir("data/$from_id");}
